@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">VM Bank</string>
+
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Пароль</string>
+    <string name="password_repeat_hint">Повторите пароль</string>
+    <string name="button_sing_in">Войти</string>
+    <string name="button_sing_in_with_phone">Войти по номеру телефона</string>
+    <string name="button_sing_in_with_email">Войти по логину и паролю</string>
+    <string name="button_sing_up">Зарегистрироваться</string>
+
+    <string name="phone_number_hint">+16505551212</string>
+    <string name="phone_code_hint">Код</string>
+    <string name="button_get_phone_code">Продолжить</string>
+    <string name="phone_auth_title">Введите номер телефона</string>
+    <string name="phone_auth_description">Чтобы войти или стать клиентом</string>
+    <string name="phone_auth_title_continuation">Введите код из SMS</string>
+    <string name="phone_auth_description_continuation">Отправленный на указанный номер</string>
+
+    <string name="sing_up_title">Добро пожаловать!</string>
+    <string name="sing_up_description">Зарегистрируйтесь чтобы стать клиентом банка</string>
+
+    <string name="bottom_navigation_sing_in_item">Вход</string>
+    <string name="bottom_navigation_sing_up_item">Регистрация</string>
+
+    <string name="input_error">Обязательное поле</string>
+
+    <string name="bottom_navigation_home_item">Главная</string>
+    <string name="bottom_navigation_payment_item">Платежи</string>
+    <string name="bottom_navigation_history_item">История</string>
+
+    <string name="toolbar_exit_item">Выход</string>
+
+    <string name="ruble_symbol">₽</string>
+    <string name="plus_symbol">+</string>
+
+    <string name="main_balance_title">Всего средств:</string>
+    <string name="button_add_product">Открыть новый счёт</string>
+    <string name="main_page_card_accounts_title">Карты и счета</string>
+    <string name="card_number_points">•••</string>
+
+    <string name="payment_page_title_transactions">Перевести</string>
+    <string name="payment_page_title_payment">Оплатить</string>
+
+    <string name="history_page_title">История операций</string>
+
+    <string name="bank_account_tab_item_actions">Карта</string>
+    <string name="bank_account_tab_item_history">История</string>
+    <string name="bank_account_card_cvc">CVC:</string>
+    <string name="bank_account_card_pin">PIN:</string>
+
+    <string name="new_product_payment_system_title">Выберите платежную систему</string>
+    <string name="button_new_product_ready">Оформить</string>
+
+    <string name="pay_between_your_accounts_title">Между своими счетами</string>
+    <string name="pay_transaction_title">Введите номер карты</string>
+    <string name="pay_between_your_accounts_text_sum">Сумма</string>
+    <string name="text_write_off_account">Счет списания</string>
+    <string name="text_credit_account">Счет зачисления</string>
+    <string name="text_destination_transaction">Получатель</string>
+    <string name="zero_sum_hint">0</string>
+    <string name="button_continue">Продолжить</string>
+    <string name="button_confirm">Подтвердить</string>
+</resources>

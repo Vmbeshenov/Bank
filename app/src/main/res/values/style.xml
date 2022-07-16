@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyEditText">
+        <item name="android:textColor">@color/second_color</item>
+    </style>
+    <style name="ToolbarColoredBackArrow" parent="Theme.Bank">
+        <item name="android:textColorSecondary">@color/main_color</item>
+    </style>
+</resources>

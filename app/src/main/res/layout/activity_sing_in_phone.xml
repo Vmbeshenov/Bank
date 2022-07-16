@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authorization.SingInPhoneActivity">
+
+    <TextView
+        android:id="@+id/phoneAuthTitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="@string/phone_auth_title"
+        android:textColor="@color/main_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phoneAuthDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/phone_auth_description"
+        android:textColor="@color/second_color"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/phoneAuthTitleDescription"
+        app:layout_constraintStart_toStartOf="@+id/phoneAuthTitleDescription"
+        app:layout_constraintTop_toBottomOf="@+id/phoneAuthTitleDescription" />
+
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        style="@style/MyEditText"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/phone_number_hint"
+        android:inputType="phone"
+        android:minHeight="55dp"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneAuthDescription" />
+
+    <Button
+        android:id="@+id/buttonGetPhoneCode"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_get_phone_code"
+        app:layout_constraintEnd_toEndOf="@+id/editPhoneNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editPhoneNumber" />
+
+    <Button
+        android:id="@+id/buttonToEmailAuth"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sing_in_with_email"
+        android:textAllCaps="false"
+        android:textColor="@color/main_color"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        app:iconPadding="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/editPhoneNumber"
+        app:layout_constraintStart_toStartOf="@+id/editPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSingInWithPhone" />
+
+    <EditText
+        android:id="@+id/editPhoneCode"
+        style="@style/MyEditText"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/phone_code_hint"
+        android:inputType="number"
+        android:visibility="gone"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/editPhoneNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGetPhoneCode" />
+
+    <Button
+        android:id="@+id/buttonSingInWithPhone"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_sing_in"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/editPhoneNumber"
+        app:layout_constraintStart_toStartOf="@+id/editPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editPhoneCode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

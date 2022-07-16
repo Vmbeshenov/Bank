@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authorization.SingUpFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/singUpTitleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:text="@string/sing_up_title"
+            android:textColor="@color/main_color"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/singUpDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="@string/sing_up_description"
+            android:textColor="@color/second_color"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/singUpTitleDescription"
+            app:layout_constraintStart_toStartOf="@+id/singUpTitleDescription"
+            app:layout_constraintTop_toBottomOf="@+id/singUpTitleDescription" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            style="@style/MyEditText"
+            android:layout_width="265dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/singUpDescription" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            style="@style/MyEditText"
+            android:layout_width="265dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/editEmail"
+            app:layout_constraintStart_toStartOf="@+id/editEmail"
+            app:layout_constraintTop_toBottomOf="@+id/editEmail" />
+
+        <EditText
+            android:id="@+id/editPasswordRepeat"
+            style="@style/MyEditText"
+            android:layout_width="265dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/password_repeat_hint"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/editPassword"
+            app:layout_constraintStart_toStartOf="@+id/editPassword"
+            app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+
+        <Button
+            android:id="@+id/buttonSingUp"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_sing_up"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="@+id/editPasswordRepeat"
+            app:layout_constraintStart_toStartOf="@+id/editPasswordRepeat"
+            app:layout_constraintTop_toBottomOf="@+id/editPasswordRepeat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

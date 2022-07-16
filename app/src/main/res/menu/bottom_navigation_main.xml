@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_item"
+        android:icon="@drawable/ic_home_main"
+        android:title="@string/bottom_navigation_home_item" />
+    <item
+        android:id="@+id/payment_item"
+        android:icon="@drawable/ic_payment"
+        android:title="@string/bottom_navigation_payment_item" />
+    <item
+        android:id="@+id/history_item"
+        android:icon="@drawable/ic_history"
+        android:title="@string/bottom_navigation_history_item" />
+</menu>

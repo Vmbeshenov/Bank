@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sing_in_item"
+        android:icon="@drawable/ic_home"
+        android:title="@string/bottom_navigation_sing_in_item"/>
+    <item
+        android:id="@+id/sing_up_item"
+        android:icon="@drawable/ic_sing_up"
+        android:title="@string/bottom_navigation_sing_up_item" />
+</menu>

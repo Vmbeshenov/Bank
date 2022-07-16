@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vmbeshenov.bank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bank">
+        <activity
+            android:name=".payments.BetweenAccountsConfirmationActivity"
+            android:parentActivityName=".payments.BetweenAccountsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".payments.BetweenAccountsActivity"
+            android:parentActivityName=".main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".payments.TransactionConfirmationActivity"
+            android:parentActivityName=".payments.TransactionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".add_product.NewProductActivity"
+            android:exported="false"
+            android:parentActivityName=".main.MainActivity" />
+        <activity
+            android:name=".payments.TransactionsActivity"
+            android:exported="false"
+            android:parentActivityName=".main.MainActivity"/>
+        <activity
+            android:name=".bank_account.BankAccountActivity"
+            android:exported="false"
+            android:parentActivityName=".main.MainActivity" />
+        <activity android:name=".authorization.SingInPhoneActivity" />
+        <activity
+            android:name=".authorization.AuthorizationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.MainActivity" />
+
+    </application>
+
+</manifest>

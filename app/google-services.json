@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "917790514558",
+    "project_id": "bank-58595",
+    "storage_bucket": "bank-58595.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917790514558:android:2c82d216b8b7528280e72f",
+        "android_client_info": {
+          "package_name": "com.vmbeshenov.bank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917790514558-a29fluo0d7396q8l8cfi3ceanenf5jms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vmbeshenov.bank",
+            "certificate_hash": "6307043b4a6be4abcc5a58ec87dd48ba2fdc72ef"
+          }
+        },
+        {
+          "client_id": "917790514558-n854i50iuunfna014q0nuamhbm63tc7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7QAzU-TM5F5NkGkuDpvjdnEB4mBrB0rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917790514558-n854i50iuunfna014q0nuamhbm63tc7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
